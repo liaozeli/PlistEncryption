@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PlistCryption' target in the 'PlistCryption' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

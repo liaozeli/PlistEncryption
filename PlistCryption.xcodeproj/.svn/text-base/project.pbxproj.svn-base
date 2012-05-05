@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5455B8D15380972009E5447 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5455B8C15380972009E5447 /* Cocoa.framework */; };
+		A5455B9715380972009E5447 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5455B9515380972009E5447 /* InfoPlist.strings */; };
+		A5455B9915380972009E5447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5455B9815380972009E5447 /* main.m */; };
+		A5455B9D15380972009E5447 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A5455B9B15380972009E5447 /* Credits.rtf */; };
+		A5455BA015380972009E5447 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5455B9F15380972009E5447 /* AppDelegate.m */; };
+		A5455BA315380972009E5447 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5455BA115380972009E5447 /* MainMenu.xib */; };
+		A5455BAB1538099A009E5447 /* NSDataAESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = A5455BAA1538099A009E5447 /* NSDataAESCrypt.m */; };
+		A5455BBB15380CE4009E5447 /* animation.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB015380CE4009E5447 /* animation.plist */; };
+		A5455BBC15380CE4009E5447 /* bingocard.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB115380CE4009E5447 /* bingocard.plist */; };
+		A5455BBD15380CE4009E5447 /* bingoitem.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB215380CE4009E5447 /* bingoitem.plist */; };
+		A5455BBE15380CE4009E5447 /* charactor.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB315380CE4009E5447 /* charactor.plist */; };
+		A5455BBF15380CE4009E5447 /* costume.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB415380CE4009E5447 /* costume.plist */; };
+		A5455BC015380CE4009E5447 /* cpuaction.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB515380CE4009E5447 /* cpuaction.plist */; };
+		A5455BC115380CE4009E5447 /* cpurandomaction.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB615380CE4009E5447 /* cpurandomaction.plist */; };
+		A5455BC215380CE4009E5447 /* product.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB715380CE4009E5447 /* product.plist */; };
+		A5455BC315380CE4009E5447 /* serialcode.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB815380CE4009E5447 /* serialcode.plist */; };
+		A5455BC415380CE4009E5447 /* stage.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BB915380CE4009E5447 /* stage.plist */; };
+		A5455BC515380CE4009E5447 /* voice.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5455BBA15380CE4009E5447 /* voice.plist */; };
+		A5455BC9153811A5009E5447 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5455BC7153811A5009E5447 /* NSStringAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5455B8815380972009E5447 /* PlistCryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlistCryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5455B8C15380972009E5447 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A5455B8F15380972009E5447 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A5455B9015380972009E5447 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A5455B9115380972009E5447 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5455B9415380972009E5447 /* PlistCryption-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlistCryption-Info.plist"; sourceTree = "<group>"; };
+		A5455B9615380972009E5447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5455B9815380972009E5447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5455B9A15380972009E5447 /* PlistCryption-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlistCryption-Prefix.pch"; sourceTree = "<group>"; };
+		A5455B9C15380972009E5447 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A5455B9E15380972009E5447 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5455B9F15380972009E5447 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5455BA215380972009E5447 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5455BA91538099A009E5447 /* NSDataAESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAESCrypt.h; sourceTree = "<group>"; };
+		A5455BAA1538099A009E5447 /* NSDataAESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAESCrypt.m; sourceTree = "<group>"; };
+		A5455BB015380CE4009E5447 /* animation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animation.plist; sourceTree = "<group>"; };
+		A5455BB115380CE4009E5447 /* bingocard.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bingocard.plist; sourceTree = "<group>"; };
+		A5455BB215380CE4009E5447 /* bingoitem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bingoitem.plist; sourceTree = "<group>"; };
+		A5455BB315380CE4009E5447 /* charactor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = charactor.plist; sourceTree = "<group>"; };
+		A5455BB415380CE4009E5447 /* costume.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = costume.plist; sourceTree = "<group>"; };
+		A5455BB515380CE4009E5447 /* cpuaction.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cpuaction.plist; sourceTree = "<group>"; };
+		A5455BB615380CE4009E5447 /* cpurandomaction.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cpurandomaction.plist; sourceTree = "<group>"; };
+		A5455BB715380CE4009E5447 /* product.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = product.plist; sourceTree = "<group>"; };
+		A5455BB815380CE4009E5447 /* serialcode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = serialcode.plist; sourceTree = "<group>"; };
+		A5455BB915380CE4009E5447 /* stage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stage.plist; sourceTree = "<group>"; };
+		A5455BBA15380CE4009E5447 /* voice.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = voice.plist; sourceTree = "<group>"; };
+		A5455BC6153811A5009E5447 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		A5455BC7153811A5009E5447 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5455B8515380971009E5447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5455B8D15380972009E5447 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5455B7D15380971009E5447 = {
+			isa = PBXGroup;
+			children = (
+				A5455B9215380972009E5447 /* PlistCryption */,
+				A5455B8B15380972009E5447 /* Frameworks */,
+				A5455B8915380972009E5447 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5455B8915380972009E5447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5455B8815380972009E5447 /* PlistCryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5455B8B15380972009E5447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5455B8C15380972009E5447 /* Cocoa.framework */,
+				A5455B8E15380972009E5447 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5455B8E15380972009E5447 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5455B8F15380972009E5447 /* AppKit.framework */,
+				A5455B9015380972009E5447 /* CoreData.framework */,
+				A5455B9115380972009E5447 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A5455B9215380972009E5447 /* PlistCryption */ = {
+			isa = PBXGroup;
+			children = (
+				A5455BC6153811A5009E5447 /* NSStringAdditions.h */,
+				A5455BC7153811A5009E5447 /* NSStringAdditions.m */,
+				A5455BA91538099A009E5447 /* NSDataAESCrypt.h */,
+				A5455BAA1538099A009E5447 /* NSDataAESCrypt.m */,
+				A5455B9E15380972009E5447 /* AppDelegate.h */,
+				A5455B9F15380972009E5447 /* AppDelegate.m */,
+				A5455BA115380972009E5447 /* MainMenu.xib */,
+				A5455B9315380972009E5447 /* Supporting Files */,
+			);
+			path = PlistCryption;
+			sourceTree = "<group>";
+		};
+		A5455B9315380972009E5447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5455BB015380CE4009E5447 /* animation.plist */,
+				A5455BB115380CE4009E5447 /* bingocard.plist */,
+				A5455BB215380CE4009E5447 /* bingoitem.plist */,
+				A5455BB315380CE4009E5447 /* charactor.plist */,
+				A5455BB415380CE4009E5447 /* costume.plist */,
+				A5455BB515380CE4009E5447 /* cpuaction.plist */,
+				A5455BB615380CE4009E5447 /* cpurandomaction.plist */,
+				A5455BB715380CE4009E5447 /* product.plist */,
+				A5455BB815380CE4009E5447 /* serialcode.plist */,
+				A5455BB915380CE4009E5447 /* stage.plist */,
+				A5455BBA15380CE4009E5447 /* voice.plist */,
+				A5455B9415380972009E5447 /* PlistCryption-Info.plist */,
+				A5455B9515380972009E5447 /* InfoPlist.strings */,
+				A5455B9815380972009E5447 /* main.m */,
+				A5455B9A15380972009E5447 /* PlistCryption-Prefix.pch */,
+				A5455B9B15380972009E5447 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5455B8715380971009E5447 /* PlistCryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5455BA615380972009E5447 /* Build configuration list for PBXNativeTarget "PlistCryption" */;
+			buildPhases = (
+				A5455B8415380971009E5447 /* Sources */,
+				A5455B8515380971009E5447 /* Frameworks */,
+				A5455B8615380971009E5447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlistCryption;
+			productName = PlistCryption;
+			productReference = A5455B8815380972009E5447 /* PlistCryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5455B7F15380971009E5447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "TwinFish Technology Co.Ltd";
+			};
+			buildConfigurationList = A5455B8215380971009E5447 /* Build configuration list for PBXProject "PlistCryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5455B7D15380971009E5447;
+			productRefGroup = A5455B8915380972009E5447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5455B8715380971009E5447 /* PlistCryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5455B8615380971009E5447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5455B9715380972009E5447 /* InfoPlist.strings in Resources */,
+				A5455B9D15380972009E5447 /* Credits.rtf in Resources */,
+				A5455BA315380972009E5447 /* MainMenu.xib in Resources */,
+				A5455BBB15380CE4009E5447 /* animation.plist in Resources */,
+				A5455BBC15380CE4009E5447 /* bingocard.plist in Resources */,
+				A5455BBD15380CE4009E5447 /* bingoitem.plist in Resources */,
+				A5455BBE15380CE4009E5447 /* charactor.plist in Resources */,
+				A5455BBF15380CE4009E5447 /* costume.plist in Resources */,
+				A5455BC015380CE4009E5447 /* cpuaction.plist in Resources */,
+				A5455BC115380CE4009E5447 /* cpurandomaction.plist in Resources */,
+				A5455BC215380CE4009E5447 /* product.plist in Resources */,
+				A5455BC315380CE4009E5447 /* serialcode.plist in Resources */,
+				A5455BC415380CE4009E5447 /* stage.plist in Resources */,
+				A5455BC515380CE4009E5447 /* voice.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5455B8415380971009E5447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5455B9915380972009E5447 /* main.m in Sources */,
+				A5455BA015380972009E5447 /* AppDelegate.m in Sources */,
+				A5455BAB1538099A009E5447 /* NSDataAESCrypt.m in Sources */,
+				A5455BC9153811A5009E5447 /* NSStringAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5455B9515380972009E5447 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5455B9615380972009E5447 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5455B9B15380972009E5447 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5455B9C15380972009E5447 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A5455BA115380972009E5447 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5455BA215380972009E5447 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5455BA415380972009E5447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5455BA515380972009E5447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5455BA715380972009E5447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlistCryption/PlistCryption-Prefix.pch";
+				INFOPLIST_FILE = "PlistCryption/PlistCryption-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5455BA815380972009E5447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlistCryption/PlistCryption-Prefix.pch";
+				INFOPLIST_FILE = "PlistCryption/PlistCryption-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5455B8215380971009E5447 /* Build configuration list for PBXProject "PlistCryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5455BA415380972009E5447 /* Debug */,
+				A5455BA515380972009E5447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5455BA615380972009E5447 /* Build configuration list for PBXNativeTarget "PlistCryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5455BA715380972009E5447 /* Debug */,
+				A5455BA815380972009E5447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5455B7F15380971009E5447 /* Project object */;
+}
